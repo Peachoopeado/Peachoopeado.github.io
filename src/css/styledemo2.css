@@ -1,0 +1,17 @@
+.example_block{
+    height: 400px;
+    width: 100%;
+    box-shadow: 2px 2px 10px #000;
+    margin: 30px;
+
+}
+.list{
+    margin: 30px;
+    padding: 10px 0px 10px 0px;
+    font-size: 30px;
+}
+.list>li{
+    background: url(../img/check.png) left/auto 70% no-repeat;
+    padding-left: 25px;
+}
+    
