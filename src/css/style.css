@@ -57,16 +57,17 @@ nav{
     padding: 0px 16px;
     margin: 58px 14px 0px 14px; 
 }
-.about_me h2{
+.about_me >h2{
     height: 108px;
     text-align: center;
-    margin: 111px 0px 0px 0px;
+    padding: 109px 0px 0px 0px;
     font-size: 25px;
     text-transform: uppercase;
     color: #263244;
-    font-weight: bold;
-    background: url(../img/line_aboutme.jpg) center/auto 5% no-repeat
-    
+    font-weight: bold;    
+}
+.lam {
+	margin:  53px 994px 0px 915px;
 }
 .photo{
     margin: 58px 14px 24px 849px;
@@ -78,7 +79,7 @@ nav{
     font-weight: bold;
         
 }
-.down{
+.about_me input{
     height: 40px;
     text-align: center;
     border: 2px solid #6d7682;
@@ -87,23 +88,24 @@ nav{
     color: #6d7682;
     font-size: 13px;
     padding: 0px 16px;
-    margin: 40px 14px 78px 888px; 
+    margin: 40px 14px 78px 14px; 
 }
 .skills{
     width: 100%;
     height: 65%;
     background: url(../img/about_font.png) center/cover no-repeat;
 }
-.skills h2{
+.skills >h2{
     height: 108px;
     text-align: center;
-    margin: 20px 0px 0px 0px;
-    padding-top: 109px;
+    padding: 109px 0px 0px 0px;
     font-size: 25px;
     text-transform: uppercase;
     color: #263244;
     font-weight: bold;
-    background: url(../img/line_aboutme.jpg) center/auto 5% no-repeat;
+}
+.ls{
+	margin:  53px 990px 0px 915px;
 }
 .skills li{
     text-align:center;
@@ -113,6 +115,194 @@ nav{
     padding:120px 0px 0px 0px;
     
 }
-.cases{
+.cases >h2{
+    height: 108px;
+    text-align: center;
+    padding: 109px 0px 0px 0px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #263244;
+    font-weight: bold;    
+}
+.lcase{
+	margin: 53px 990px 0px 915px; 
+}
+.cases >p{
+    text-align: center;
+    color: #263244;
+    font-weight: normal;
+    margin: 20px 30px 0px 30px;
+}
+.example{
+    margin: 42px 14px 0px 5px;
+}
+.proj_inf{
+    margin: 10px 14px 0px 395px;
+    line-height: 40px;   
+}
+.proj_inf h4{
+    font-size: 25px;
+    font-weight: bold;
+    color:#263244;    
+}
+.proj_inf a{
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: #63b5ae;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px 16px;
     
+    
+}
+.calc{
+	height: 108px;
+    text-align: center;
+    padding: 109px 0px 0px 0px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #263244;
+    font-weight: bold;
+}
+.lcalc{
+	margin: 53px 990px 0px 915px; 
+}
+.site_type{
+   margin: 50px 14px 0px 395px;
+    line-height: 30px; 
+}
+.site_type b{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1c2534;
+}
+.design{
+    margin: 10px 14px 0px 395px;
+    line-height: 30px
+}
+.design b{ 
+    font-size: 20px;
+    font-weight: bold;
+    color: #1c2534;
+}
+.adapt{
+    margin: 10px 14px 0px 395px;
+    line-height: 30px;
+}
+.adapt b{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1c2534;
+}
+
+.sum{
+	margin:10px 14px 155px 395px;
+	width: 45%;
+}
+/* Как форматировать таблицу? */
+
+.stat{
+    width: 100%;
+    height: calc(100% - 400px);
+    background: url(../img/stat_font.jpg) center/cover no-repeat;
+}
+.stat h2{
+    height: 108px;
+    text-align: center;
+    padding: 109px 0px 0px 0px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #263244;
+    font-weight: bold;
+
+}
+.lstat{
+	margin: 53px 990px 0px 915px; 
+}
+.stat ul li{
+	width: 25%;
+	float: left;
+	text-align:center;
+    line-height: 35px;
+	display: inline;
+    padding:120px 0px 0px 0px;
+  
+   
+    
+
+}
+.feedback >p{
+    text-align: center;
+    margin-top: 38px;
+	margin-bottom: 63px;	
+    
+}
+.lfeed{
+	margin: 53px 990px 0px 915px; 
+}
+.feedava{
+    margin: 20px 908px 0px 908px;
+    width:auto;
+}
+.feedback >h2{
+    height: 108px;
+    text-align: center;
+    padding: 109px 0px 0px 0px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #263244;
+    font-weight: bold;
+ 
+}
+.contacts{
+	width: 100%;
+    height: calc(100% - 40px);
+    background: url(../img/cont_font.jpg) center/cover no-repeat;
+}
+.contacts >p{;
+	text-align: center;
+    color: #fff;
+    font-weight: bold;
+	margin: 70px 474px 0px 474px;
+    
+}
+.contacts >h2{
+    height: 108px;
+    text-align: center;
+    padding: 109px 0px 0px 0px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+.limage{
+	margin: 53px 990px 0px 915px; 
+}
+.contacts >ul li{
+	width: 25%;
+	float: left;
+	text-align:center;
+    line-height: 35px;
+	display: inline;
+    margin: 75px 10px 0px 115px;
+	color: #fff;
+	font-weight: bold;
+}
+.contacts >form{
+	margin: 230px 100px 0px 700px;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+footer{
+	width: 100%;
+    height: 60px;
+    background: #344051;
+	text-align:center;
+	color: white;
+}
+footer >h3{
+	font-weight: bold;
+	padding-top: 20px;
 }

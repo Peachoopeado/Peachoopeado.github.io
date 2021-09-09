@@ -41,14 +41,15 @@
     </div>
     <div class="about_me">
         <h2>Обо мне</h2>
+		<img class="lam" src="img/line_aboutme.jpg">
         <img class="photo" src="img/photo.png" alt="аватарка" align="center">
         <hr>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt laoreet nisi, id imperdiet ex laoreet eget.<br> Curabitur auctor a dolor eu condimentum. Aliquam tempus, nulla nec faucibus mattis, libero nunc luctus neque, ac pulvinar purus dolor eu erat.<br> Nulla sit amet malesuada ex. Vivamus mattis vestibulum cursus. Duis ultrices magna vitae tellus venenatis, eget tristique lacus pellentesque. <br> Fusce velit eros, sollicitudin at nisi quis, aliquet imperdiet ligula. Aliquam vel turpis vel mauris rutrum vehicula.</p>
-        <input class="down" type="submit" value="Скачать резюме">
+        <input type="submit" value="Скачать резюме">
     </div>
     <div class="skills">
         <h2>Что я умею</h2>
-        <hr>
+		<img class="ls" src="img/line_aboutme.jpg">
         <ul>
             <li><img src="img/lap.png" alt="Красивый значок"><br><b>Веб-дизайн:</b><br>
             Качественная верстка внешнего вида сайтов
@@ -65,74 +66,95 @@
         </ul>
     </div>
     <div class="cases">
-    <h2>Кейсы</h2><hr>
-    <p>Для демонстрации навыков и компетентности, вы можете подробно изучить мои работы</p>
-    <img src="" alt="Демо">
-    <h2>Расчет стоимости</h2><hr>
-    <!--Необходимо изучить формулы-->
-    <div><b>Тип сайта</b></div>
-    <select name="list1" id="list" value="Выберите пункт..." placeholder="Выберите пункт...">
-        <option value="option1">Сайт-визитка</option>
-        <option value="option2">Корпоративный сайт</option>
-        <option value="option3">Лендинг</option>
-        <option value="option4">Интернет-магазин</option>
-        <option value="option5">Интернет-витрина</option>
-    </select>
-    <div><b>Дизайн</b></div>
-    <select name="list2" id="list" value="Выберите пункт...">
-        <option value="option1">Опция1</option>
-        <option value="option2">Опция2</option>
-        <option value="option3">Опция3</option>
-    </select>
-    <div><b>Адаптивность</b></div>
-    <select name="list3" id="list" value="Выберите пункт...">
-        <option value="option1">Да</option>
-        <option value="option2">Нет</option>
-    </select>
-    <table  border="1">
-        <tr>
-            <th>Сроки</th>
-            <th>Стоимость</th>
-        </tr>
-        <tr>
-            <td>0</td>
-            <td>0</td>
-        </tr>  
-    </table>
+    	<h2>Кейсы</h2>
+		<img class="lcase" src="img/line_aboutme.jpg">
+    	<p>Для демонстрации навыков и компетентности, вы можете подробно изучить мои работы</p>
+    	<img class="example" src="img/case.png" alt="Демо">
+	</div>	
+    <div class="proj_inf">
+       <h4>Client:</h4>
+       <p>Какая-то компания</p>
+       <h4>Website:</h4>
+        <a href="https://google.com" target="_blank">Visit Live Site</a>    
     </div>
-    <h2>Статистика</h2><hr>
-    <ul>
-        <img src="" alt="Красивый значок">
-        <li><b>0</b> <big>счастливых клиентов</big></li>
-        <img src="" alt="Красивый значок">
-        <li><b>0</b> <big>часов работы</big></li>
-        <img src="" alt="Красивый значок">
-        <li><b>0</b> <big>проектов завершено</big></li>
-        <img src="" alt="Красивый значок">
-        <li><b>0</b> <big>наград получено</big></li>
-    </ul>
-    <h2>Отзывы</h2><hr>
-    <img src="" alt="Аватарка">
-    <p><big><i>Благодаря этому разработчику у компании "ТАД" есть удобный и привлекательный сайт!</i></big></p>
-    <h2>Мои контакты</h2><hr>
-    <span>Санкт-Петербург</span>
-    <span>iorbit4557@gmail.com</span>
-    <span>+79999999999</span>
-    <h3>Оставьте мне сообщение</h3>
-    <form action="#">
-        <span>
-            <input type="text" name="name_input" placeholder="Имя">
-            <input type="text" name="email_input" placeholder="Email">    
-        </span>
-        <textarea name="message" id="mes" cols="30" rows="5">
-        </textarea>
-        <input type="submit" value="отправить">
-    </form>
-          
-    
-    
-         
-
-    
+    <h2 class="calc">Расчет стоимости</h2><hr>
+	<img class="lcalc" src="img/line_aboutme.jpg">
+    <!--Необходимо изучить формулы-->
+    <div class="site_type">
+        <b>Тип сайта</b>
+        <br><select name="list1" id="list" value="Выберите пункт..." placeholder="Выберите пункт...">
+            <option value="option1">Сайт-визитка</option>
+            <option value="option2">Корпоративный сайт</option>
+            <option value="option3">Лендинг</option>
+            <option value="option4">Интернет-магазин</option>
+            <option value="option5">Интернет-витрина</option>
+        </select>
+    </div>
+    <div class="design" >
+        <b>Дизайн</b>
+        <br><select name="list2" id="list" value="Выберите пункт...">
+            <option value="option1">Опция1</option>
+            <option value="option2">Опция2</option>
+            <option value="option3">Опция3</option>
+        </select>
+    </div>
+    <div class="adapt">
+        <b>Адаптивность</b>
+        <br><select name="list3" id="list" value="Выберите пункт...">
+            <option value="option1">Да</option>
+            <option value="option2">Нет</option>
+        </select>
+    </div>
+    <div class="sum">
+        <table border="1">
+            <tr>
+                <th>Cроки</th>
+                <th>Стоимость</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+            </tr>  
+        </table>
+    </div>
+    <div class="stat">
+        <h2>Статистика</h2>
+		<img class="lstat" src="img/line_aboutme.jpg">
+        <ul>
+            <li><img src="img/smile.png" alt="Красивый значок"><br/><b>0</b> <big>счастливых клиентов</big><br/></li>
+            <li><img src="img/brackets.png" alt="Красивый значок"><br/><b>0</b> <big>часов работы</big><br/></li>
+            <li><img src="img/check.png" alt="Красивый значок"><br/><b>0</b> <big>проектов завершено</big><br/><br></li>
+            <li><img src="img/troph.png" alt="Красивый значок"><br/><b>0</b> <big>наград получено</big><br/></li>
+        </ul>           
+    </div>
+        
+    <div class="feedback">
+        <h2>Отзывы</h2>
+		<img class="lfeed" src="img/line_aboutme.jpg">
+        <img class="feedava" src="img/ava.jpg" alt="Аватарка">
+        <p><big><i>Благодаря этому разработчику у компании "ТАД" есть удобный и привлекательный сайт!</i></big></p>
+    </div>
+    <div class="contacts">
+		<h2>Мои контакты</h2>
+		<img class="limage" src="img/line_aboutme.jpg">
+		<p><p>Господа, существующая теория выявляет срочную потребность системы массового участия. Задача организации, в особенности же начало повседневной работы по формированию позиции требует от нас анализа поставленных обществом задач.</p>
+		<ul>
+			<li><img src="img/loc.png" alt="Красивый значок"><br/>Санкт-Петербург - Невский проспект 11<br/></li>	
+			<li><img src="img/env.png" alt="Красивый значок"><br/>iorbit4557@gmail.com<br/></li>
+			<li><img src="img/smrtphn.png" alt="Красивый значок"><br/>+79999999999<br/></li>
+		</ul>
+    	<form action="#">
+        	<span>
+            	<input type="text" name="name_input" placeholder="Имя">
+            	<input type="text" name="email_input" placeholder="Email">    
+        	</span>
+			<br/><textarea name="message" id="mes" cols="30" rows="5">
+        	</textarea>
+        	<input type="submit" value="отправить">
+    	</form>
+	</div>  	
+    <footer>
+		<h3>Создано при поддержке Андрея Брауна</h3>
+	</footer>
 </body>
 </html>
