@@ -88,7 +88,7 @@ nav{
     color: #6d7682;
     font-size: 13px;
     padding: 0px 16px;
-    margin: 40px 14px 78px 14px; 
+    margin: 40px 990px 78px 883px; 
 }
 .skills{
     width: 100%;
@@ -292,8 +292,39 @@ nav{
 	font-weight: bold;
 }
 .contacts >form{
-	margin: 230px 100px 0px 700px;
-    font-family: Tahoma, Verdana, sans-serif;
+	padding-left: 622px;
+}
+.inp_text{
+	height: 40px;
+    text-align: left;
+    background: rgb(250,250,250,0.74);
+    color: black;
+    font-size: 13px;
+    padding: 0px 120px 0px 10px;
+    margin: 58px 14px 0px 14px;
+	
+}
+.mess_text{
+	height: 40px;
+	text-align: left;
+	background: rgb(250,250,250,0.74);
+	color: black;
+	font-size: 13px;
+	padding: 16px 451px 94px 10px ;
+	margin: 10px 0px 0px 13px;
+		
+}
+.send{
+	height: 40px;
+    text-align: center;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+	font-weight: bold;
+    padding: 0px 17px;
+    margin: 40px 990px 78px 275px; 
 }
 footer{
 	width: 100%;
