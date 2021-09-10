@@ -92,7 +92,7 @@ nav{
 }
 .skills{
     width: 100%;
-    height: 65%;
+    height: 60%;
     background: url(../img/about_font.png) center/cover no-repeat;
 }
 .skills >h2{
@@ -107,12 +107,21 @@ nav{
 .ls{
 	margin:  53px 990px 0px 915px;
 }
+.skills b{
+	font-size: 17px;
+	color: #cf7600;
+}
+.skills  ul img{
+	margin-bottom: 37px;
+}
 .skills li{
     text-align:center;
     float: left;
-    line-height: 35px;
+	display:block;
+	width: 320px;
+    line-height: 25px;
     margin-left: 135px;
-    padding:120px 0px 0px 0px;
+    padding:110px 110px 0px 0px;
     
 }
 .cases >h2{
@@ -134,11 +143,27 @@ nav{
     margin: 20px 30px 0px 30px;
 }
 .example{
-    margin: 42px 14px 0px 5px;
+    margin: 42px 14px 0px 395px;
+}
+.proj_nam{
+	float: left;
+	display: block;
+	width: 880px;
+	margin-top: 20px;
+	line-height: 25px;
+}
+.proj_nam h4{
+	font-size: 22px;
+    font-weight: bold;
+    color:#263244;   
 }
 .proj_inf{
-    margin: 10px 14px 0px 395px;
-    line-height: 40px;   
+    float: left;
+	display: block;
+	width: 300px;
+	margin-left: 395px;
+	margin-top: 20px;
+	line-height: 40px;
 }
 .proj_inf h4{
     font-size: 25px;
@@ -161,7 +186,7 @@ nav{
 .calc{
 	height: 108px;
     text-align: center;
-    padding: 109px 0px 0px 0px;
+    padding: 320px 0px 0px 0px;
     font-size: 25px;
     text-transform: uppercase;
     color: #263244;
@@ -171,37 +196,87 @@ nav{
 	margin: 53px 990px 0px 915px; 
 }
 .site_type{
-   margin: 50px 14px 0px 395px;
-    line-height: 30px; 
+   margin: 50px 14px 0px 495px;
+    line-height: 45px;
+}
+.site_type select{
+	border:2px solid #fff;
+	font-size: 15px;
+	background-color: #eeeeee;
+	padding: 15px 680px 15px 30px;
+	font-weight: bold;
 }
 .site_type b{
     font-size: 20px;
     font-weight: bold;
     color: #1c2534;
+	text-transform: uppercase;
+}
+.design select{
+	border:2px solid #fff;
+	font-size: 15px;
+	background-color: #eeeeee;
+	padding: 15px 705px 15px 30px ;
+	font-weight: bold;
 }
 .design{
-    margin: 10px 14px 0px 395px;
-    line-height: 30px
+    margin: 15px 14px 15px 495px;
+    line-height: 40px;
 }
 .design b{ 
     font-size: 20px;
     font-weight: bold;
     color: #1c2534;
+	text-transform: uppercase;
+}
+.adapt select{
+	border:2px solid #fff;
+	font-size: 15px;
+	background-color: #eeeeee;
+	padding: 10px 705px 10px 30px;
+	font-weight: bold;
 }
 .adapt{
-    margin: 10px 14px 0px 395px;
-    line-height: 30px;
+    margin: 10px 14px 0px 495px;
+    line-height: 45px;
 }
 .adapt b{
     font-size: 20px;
     font-weight: bold;
     color: #1c2534;
+	text-transform: uppercase;
+}
+.adapt img{
+	padding-top: 40px;
 }
 
-.sum{
-	margin:10px 14px 155px 395px;
-	width: 45%;
+.est{
+	display: table;
+	margin-left: 495px;
+	margin-bottom: 155px;
+	line-height: 40px;
+	font-size: 17px;
+	font-weight: bold;
+	color:  #1c2534;
+		
 }
+.dl{
+	display: table-row;
+}
+.sum{
+	display: table-row;
+}
+.dl span:first-child{
+	text-align: left;
+	padding-right: 820px;	
+}
+.sum span:first-child{
+	text-align: left;
+	padding-right: 781px;	
+}
+
+	
+
 /* Как форматировать таблицу? */
 
 .stat{
@@ -222,6 +297,9 @@ nav{
 .lstat{
 	margin: 53px 990px 0px 915px; 
 }
+.stat ul img{
+	padding-bottom: 25px;
+}
 .stat ul li{
 	width: 25%;
 	float: left;
@@ -229,10 +307,9 @@ nav{
     line-height: 35px;
 	display: inline;
     padding:120px 0px 0px 0px;
-  
-   
-    
-
+	font-size: 15px;
+	font-family:;
+	color: #323e4f;
 }
 .feedback >p{
     text-align: center;
@@ -287,9 +364,18 @@ nav{
 	text-align:center;
     line-height: 35px;
 	display: inline;
-    margin: 75px 10px 0px 115px;
+    margin: 75px 10px 50px 115px;
 	color: #fff;
 	font-weight: bold;
+}
+.contacts h3{
+	text-align: center;
+    color: #fff;
+    font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 10px 174px 0px -439px;
+	
 }
 .contacts >form{
 	padding-left: 622px;
@@ -300,19 +386,18 @@ nav{
     background: rgb(250,250,250,0.74);
     color: black;
     font-size: 13px;
-    padding: 0px 120px 0px 10px;
-    margin: 58px 14px 0px 14px;
+    padding: 0px 119px 0px 10px;
+    margin: 30px 14px 0px 14px;
 	
 }
-.mess_text{
+.contacts textarea{
 	height: 40px;
 	text-align: left;
 	background: rgb(250,250,250,0.74);
 	color: black;
 	font-size: 13px;
-	padding: 16px 451px 94px 10px ;
-	margin: 10px 0px 0px 13px;
-		
+	margin: 14px;
+	padding: 10px
 }
 .send{
 	height: 40px;
@@ -324,7 +409,7 @@ nav{
     font-size: 13px;
 	font-weight: bold;
     padding: 0px 17px;
-    margin: 40px 990px 78px 275px; 
+    margin: 30px 580px 78px 270px; 
 }
 footer{
 	width: 100%;

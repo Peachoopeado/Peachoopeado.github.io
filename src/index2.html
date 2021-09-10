@@ -69,21 +69,27 @@
     	<h2>Кейсы</h2>
 		<img class="lcase" src="img/line_aboutme.jpg">
     	<p>Для демонстрации навыков и компетентности, вы можете подробно изучить мои работы</p>
-    	<img class="example" src="img/case.png" alt="Демо">
+    	<img class="example" src="img/case.jpg" alt="Демо">
 	</div>	
-    <div class="proj_inf">
+	<div class="proj_inf">
        <h4>Client:</h4>
        <p>Какая-то компания</p>
        <h4>Website:</h4>
-        <a href="https://google.com" target="_blank">Visit Live Site</a>    
+		
+		<a class="button" href="https://google.com" target="_blank">Visit Live Site</a>    
     </div>
+	<div class="proj_nam">
+		<h4>Название компании</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis egestas sed tempus urna et. Vel turpis nunc eget lorem dolor. Orci a scelerisque purus semper eget duis at. At elementum eu facilisis sed odio morbi. Tincidunt lobortis feugiat vivamus at. </p>
+	</div>
     <h2 class="calc">Расчет стоимости</h2><hr>
 	<img class="lcalc" src="img/line_aboutme.jpg">
     <!--Необходимо изучить формулы-->
     <div class="site_type">
-        <b>Тип сайта</b>
+		<b>Тип сайта</b>
         <br><select name="list1" id="list" value="Выберите пункт..." placeholder="Выберите пункт...">
-            <option value="option1">Сайт-визитка</option>
+            <option value="" disabled selected>Выберите пункт...</option>
+			<option value="option1">Сайт-визитка</option>
             <option value="option2">Корпоративный сайт</option>
             <option value="option3">Лендинг</option>
             <option value="option4">Интернет-магазин</option>
@@ -93,7 +99,8 @@
     <div class="design" >
         <b>Дизайн</b>
         <br><select name="list2" id="list" value="Выберите пункт...">
-            <option value="option1">Опция1</option>
+            <option value="" disabled selected><font color="#737373">Выберите пункт...</font></option>
+			<option value="option1">Опция1</option>
             <option value="option2">Опция2</option>
             <option value="option3">Опция3</option>
         </select>
@@ -101,30 +108,28 @@
     <div class="adapt">
         <b>Адаптивность</b>
         <br><select name="list3" id="list" value="Выберите пункт...">
-            <option value="option1">Да</option>
+			<option value="" disabled selected><font color="#737373">Выберите пункт...</font></option>
+			<option value="option1">Да</option>
             <option value="option2">Нет</option>
         </select>
+		<img src="img/linc.jpg">
     </div>
-    <div class="sum">
-        <table border="1">
-            <tr>
-                <th>Cроки</th>
-                <th>Стоимость</th>
-            </tr>
-            <tr>
-                <td>0</td>
-                <td>0</td>
-            </tr>  
-        </table>
-    </div>
+    <div class="est">
+		<div class="dl">
+			<span>Сроки</span><span>0</span>
+    	</div>
+		<div class="sum">
+		<span>Стоимость</span>0<span></span>
+		</div>
+	</div>
     <div class="stat">
         <h2>Статистика</h2>
 		<img class="lstat" src="img/line_aboutme.jpg">
         <ul>
-            <li><img src="img/smile.png" alt="Красивый значок"><br/><b>0</b> <big>счастливых клиентов</big><br/></li>
-            <li><img src="img/brackets.png" alt="Красивый значок"><br/><b>0</b> <big>часов работы</big><br/></li>
-            <li><img src="img/check.png" alt="Красивый значок"><br/><b>0</b> <big>проектов завершено</big><br/><br></li>
-            <li><img src="img/troph.png" alt="Красивый значок"><br/><b>0</b> <big>наград получено</big><br/></li>
+			<li><img src="img/smile.png" alt="Красивый значок"><br/><b><font size="20px">0</font></b><br/><big>счастливых клиентов</big><br/></li>
+            <li><img src="img/brackets.png" alt="Красивый значок"><br/><b><font size="20px">0</font></b><br/> <big>часов работы</big><br/></li>
+            <li><img src="img/check.png" alt="Красивый значок"><br/><b><font size="20px">0</font></b><br/><big>проектов завершено</big><br/><br></li>
+            <li><img src="img/troph.png" alt="Красивый значок"><br/><b><font size="20px">0</font></b><br/><big>наград получено</big><br/></li>
         </ul>           
     </div>
         
@@ -144,12 +149,14 @@
 			<li><img src="img/smrtphn.png" alt="Красивый значок"><br/>+79999999999<br/></li>
 		</ul>
     	<form action="#">
-        	<span>
+        	<h3>Оставьте мне сообщение</h3>
+			<span>
             	<input class="inp_text" type="text" name="name_input" placeholder="Имя">
             	<input class="inp_text" type="text" name="email_input" placeholder="Email">    
         	</span>
 			<br/>
-			<input class="mess_text" type="text" name="mess_input" placeholder="Сообщение">
+			<textarea style="width:626px; height: 110px;" placeholder="Сообщение" name="mess" id="1">
+			</textarea>
         	<input class="send" type="submit" value="Отправить">
     	</form>
 	</div>  	
